@@ -1,0 +1,32 @@
+@use '../../../assets/styles/variables' as vars;
+
+.card-container {
+    background-color: vars.$quinary-color;
+    color: vars.$tertiary-color;
+    box-shadow: vars.$box-shadow-light;
+    border-radius: vars.$standard-border-radius;
+    padding: vars.$padding-lg;
+
+
+    .tool-image {
+        // border-top-left-radius: vars.$standard-border-radius;
+        // border-top-right-radius: vars.$standard-border-radius;
+        border-radius: vars.$standard-border-radius;
+        width: 100%;
+    }
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.card-header {
+    padding-bottom: 1rem;
+    font-weight: vars.$bold-weight;
+}
+
+.content-container {
+    padding: 1rem;
+}

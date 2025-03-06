@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Mysig bastu i ullared",
+        "description": "Denna bastu är fin för dig som gillar att basta. Om du bastar lann du basta här. Defeninitvt",
+        "imageURL": "/mock/images/coasttool.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Svettig bastu i Falun",
+        "description": "Denna bastu är fin för dig som gillar att basta. Om du bastar lann du basta här. Defeninitvt",
+        "imageURL": "/mock/images/crazytool.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Bastu vid havet",
+        "description": "Denna bastu är fin för dig som gillar att basta. Om du bastar lann du basta här. Defeninitvt",
+        "imageURL": "/mock/images/famoustool.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Vedeldad mysbastu",
+        "description": "Denna bastu är fin för dig som gillar att basta. Om du bastar lann du basta här. Defeninitvt",
+        "imageURL": "/mock/images/norwaytool.jpeg"
+    },
+    {
+        "id": 5,
+        "title": "Rktigt bra bastu",
+        "description": "Denna bastu är fin för dig som gillar att basta. Om du bastar lann du basta här. Defeninitvt",
+        "imageURL": "/mock/images/regulartool.jpeg"
+    },
+    {
+        "id": 6,
+        "title": "Morfars favorit",
+        "description": "Denna bastu är fin för dig som gillar att basta. Om du bastar lann du basta här. Defeninitvt",
+        "imageURL": "/mock/images/sometool.jpeg"
+    }
+]

@@ -1,0 +1,50 @@
+.tool-table-container {
+    display: flex;
+    flex-direction: row;
+
+
+    .tool-table {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .table-header-container {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        .focus {
+            background-color: green;
+        }
+
+        .unfocused {
+            background-color: red;
+        }
+    }
+
+    .table-content-container {
+        .tool-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+            gap: 1rem;
+        }
+    }
+}
+
+// /* Adjust for responsiveness */
+// @media (max-width: 768px) {
+//     .tool-card {
+//         flex: 1 1 calc(50% - 1rem);
+//         /* 2 cards per row on tablets */
+//         max-width: calc(50% - 1rem);
+//     }
+// }
+
+// @media (max-width: 480px) {
+//     .tool-card {
+//         flex: 1 1 100%;
+//         /* Full width on small screens */
+//         max-width: 100%;
+//     }
+// }
